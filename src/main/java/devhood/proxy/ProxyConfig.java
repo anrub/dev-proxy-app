@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class ProxyConfig {
 
-	@Value("${error:null}")
+	@Value("${error:0}")
 	private Integer error;
 
 	@Value("${block:false}")
